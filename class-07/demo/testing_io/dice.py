@@ -5,6 +5,9 @@ def default_roller():
     return (randint(1, 6,), randint(1, 6,))
 
 
+# play_dice((1,1))
+# play_dice()
+
 def play_dice(roller=default_roller):
 
     while True:
