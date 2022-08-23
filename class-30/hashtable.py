@@ -1,7 +1,7 @@
 class Hashtable:
     pass
 
-    def add(self, key, value):
+    def set(self, key, value):
         pass
 
         # add
@@ -22,6 +22,13 @@ class Hashtable:
         # contains
         # Arguments: key
         # Returns: Boolean, indicating if the key exists in the table already.
+
+    def keys(self, key):
+        pass
+
+        # keys
+        # Argument: key
+        # Returns: Collection of keys
 
     def hash(self, key):
         pass
